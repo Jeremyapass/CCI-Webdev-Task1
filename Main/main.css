@@ -1,0 +1,279 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;    
+}
+@font-face {
+    font-family: elegant1;
+    src: url(hacuia.otf);
+}
+@font-face {
+    font-family: elegant2;
+    src: url(RawonDemo.ttf);
+}
+@font-face {
+    font-family: aesthetic1;
+    src: url(Ayrton\ Pight.ttf);
+}
+@font-face {
+    font-family: elegant3;
+    src: url(coolvetica\ condensed\ rg.otf);
+}
+@font-face {
+    font-family:elegant4;
+    src: url(wence.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+.logo{
+    float:left;
+    padding: 1.5rem 4rem;
+    font-size: 5rem;
+    border: rgba(190,29,253,1);
+    
+    font-family: elegant2;
+    background: rgb(134,44,44);
+background: linear-gradient(96deg, rgba(134,44,44,1) 0%, rgba(152,0,0,1) 79%);
+}
+
+.ninja{
+    float:left;
+    margin-left: 21.7%;
+    margin-top: 6rem;
+    font-size: 4rem;
+    
+    font-family: aesthetic1;
+    transition: 1.2s;
+}
+.ninja:hover{
+    margin-top: 2rem;
+}
+h1{
+    background: rgb(250,235,215);
+    background: linear-gradient(96deg, rgba(250,235,215,1) 0%, rgba(255,228,192,1) 100%);
+    height: 8rem;
+    position: relative;
+    overflow:hidden;
+}
+
+.containerbutton{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+button{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 2rem;
+    border: none;
+    box-sizing: border-box;
+    font-family: elegant3;
+    font-size: 2.2rem;
+    transition: .3s;
+    background: rgb(134,44,44);
+background: linear-gradient(96deg, rgba(134,44,44,1) 0%, rgba(152,0,0,1) 79%);
+   
+}
+button:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(27deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    transform: scale(1.1);
+    color: brown;
+    display: block;
+}
+
+
+
+/* BODY */
+
+body{
+    background-color: cornsilk;
+}
+
+.containermain{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;    
+    box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+.tengahan{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    box-sizing: border-box;
+    
+}
+
+.kiri{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width:31.5rem;
+    justify-content: space-around;
+}
+.kiri .virus2{
+    align-self: center;
+}
+
+
+.tulisan{
+    /* background-color: darkmagenta; */
+    width: 30rem;;
+    box-sizing: border-box;
+}
+.hh{
+    font-family: elegant1;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+}
+.subh2{
+    font-family: elegant4;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+}
+
+.gambar{
+    margin-left: 4rem;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 55rem;
+    height: 55em;
+    box-sizing: border-box;
+}
+.doctor{
+    position: absolute;
+    z-index: 1;
+    width: 55rem;
+    height: 55rem;
+    box-sizing: border-box;
+}
+.rumahsakit{
+    position: absolute;
+    width: 55rem;
+    height: 45rem;
+    border-radius: 10rem 30rem 15rem 40rem;
+    border: 1rem solid transparent;
+    background: 
+    linear-gradient(to right, rgb(71, 23, 23), rgb(152, 0, 0)), 
+    linear-gradient(96deg, rgb(71, 23, 23) 0%, rgb(152, 0, 0) 79%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-sizing: border-box;
+}
+
+.kanan{
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+    box-sizing: border-box;
+    width: 31.4rem;
+    justify-content: space-around;
+}
+.virus{
+    width: 25rem;
+    height: 15rem;
+    box-sizing: border-box;
+    filter: drop-shadow(4px 4px 4px rgb(234, 214, 134));
+
+}
+.kanan .virus1{
+    align-self: flex-end;
+}
+.kanan .virus2{
+    align-self: center;
+}
+
+.penyakit{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    transition: .3s ;
+    color: black;
+    font-size: 2rem;
+}
+a:hover{
+    color: brown;
+
+}
+
+/* FOOTER */
+.footermain{
+    margin-top: 5rem;
+    background: rgb(134,44,44);
+    background: linear-gradient(96deg, rgba(134,44,44,1) 0%, rgba(152,0,0,1) 79%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    size: 100%;
+    justify-content: space-between;
+}
+
+.footerkiri{
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    font-family: elegant3;
+    font-size: 3rem;
+}
+
+.footerkanan{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 170rem;
+    height: 20rem;
+    flex-direction: column;
+}
+.knn1{
+    height: 30%;
+    font-size: 2.6rem;
+    padding: 4rem;
+  
+    font-family: elegant3;
+}
+.knn2{
+    
+    height: 70%;
+    display: flex;
+    
+}
+
+.footerkanan li{
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+}
+
+.sosmed{
+    width: 5rem;
+    height: 5rem;
+    transition: .3s;
+}
+.satu{
+    width: 8rem;
+}
+.sosmed:hover{
+    transform: scale(1.5);
+}
+
