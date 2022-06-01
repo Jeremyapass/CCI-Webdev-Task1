@@ -71,6 +71,7 @@ background: linear-gradient(96deg, rgba(134,44,44,1) 0%, rgba(152,0,0,1) 79%);
     text-decoration: none;
     transition: .3s;
     font-family: elegant3;
+    font-size: 2rem;
     
 }
 .navlogo:hover{
