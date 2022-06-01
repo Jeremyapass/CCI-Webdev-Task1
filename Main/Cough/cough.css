@@ -112,7 +112,7 @@ body{
     box-sizing: border-box;
     height:auto;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .containerkiri{
@@ -121,7 +121,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    width: 70rem;
+    /* width: 70rem; */
+    flex: 1;
+    /* background-color: chartreuse; */
 }
 .virus{
     width: 25rem;
@@ -137,12 +139,14 @@ body{
 
 .container{
     box-sizing: border-box;
-    width: 60rem;
+    /* width: 60rem; */
+    flex: 1;
     height: auto;
     margin-top: 4rem;
     display: flex auto;
     flex-wrap: wrap;
     flex-direction: column;
+    /* background-color: blueviolet; */
 }
 
 .containerkanan{
@@ -151,7 +155,9 @@ body{
     flex-direction: column;
     justify-content:space-around;
     padding: 0rem 4rem;
-    width: 70rem;
+    /* width: 70rem; */
+    flex: 1;
+    /* background-color: aqua; */
 }
 .containerkanan .virus1{
     align-self: flex-end;
